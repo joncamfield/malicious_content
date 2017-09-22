@@ -3,10 +3,15 @@
 	Stellar by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	Design:	AJ (n33.co @n33co dribbble.com/n33)
+  Demo Images: Unsplash (unsplash.com)
+	Icons: Font Awesome (fortawesome.github.com/Font-Awesome)
+	Other: jQuery (jquery.com), 	html5shiv.js (@afarkas @jdalton @jon_neal @rem), 	CSS3 Pie (css3pie.com), 	Respond.js (j.mp/respondjs)
+	Scrollex (@ajlkn), 	Skel (skel.io)
 -->
 <html>
 	<head>
-		<title>Stellar by HTML5 UP</title>
+		<title>Malicious Content: A card game for infosec dorks</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -21,19 +26,18 @@
 
 				<!-- Header -->
 					<header id="header" class="alt">
-						<span class="logo"><img src="images/logo.svg" alt="" /></span>
-						<h1>Stellar</h1>
-						<p>Just another free, fully responsive site template<br />
-						built by <a href="https://twitter.com/ajlkn">@ajlkn</a> for <a href="https://html5up.net">HTML5 UP</a>.</p>
+						<span class="logo"><img src="images/unlock.svg" alt="" /></span>
+						<h1>Malicious Content</h1>
+						<p>A card game for infosec dorks</p>
 					</header>
 
 				<!-- Nav -->
 					<nav id="nav">
 						<ul>
-							<li><a href="#intro" class="active">Introduction</a></li>
-							<li><a href="#first">First Section</a></li>
-							<li><a href="#second">Second Section</a></li>
-							<li><a href="#cta">Get Started</a></li>
+							<li><a href="#intro" class="active">About</a></li>
+							<li><a href="#first">Let's Play</a></li>
+							<li><a href="#second">Buy, Pirate, Download</a></li>
+							<li><a href="#cta">Contact</a></li>
 						</ul>
 					</nav>
 
@@ -45,98 +49,96 @@
 								<div class="spotlight">
 									<div class="content">
 										<header class="major">
-											<h2>Ipsum sed adipiscing</h2>
+											<h2>Is this just another "Cards aganst humanity" clone?</h2>
 										</header>
-										<p>Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat magna
-										adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus sit cursus.
-										Tempus nisl et nullam lorem ipsum dolor sit amet aliquam.</p>
+										<p>We like to say, it's like "<a href="https://cardsagainsthumanity.com/" target="_blank">Cards Against Humanity</a> but for infosec. It was also inspired by <a href="http://jadedaid.com/" target="_blank">Jaded Aid</a> and way too many gin-tonics.</p>
 										<ul class="actions">
-											<li><a href="generic.html" class="button">Learn More</a></li>
+											<li><a href="#first" class="button">Try it out!</a></li>
 										</ul>
 									</div>
-									<span class="image"><img src="images/pic01.jpg" alt="" /></span>
+									<span class="image"><img src="images/malicious-content-cover.jpg" alt="" /></span>
 								</div>
 							</section>
 
 						<!-- First Section -->
 							<section id="first" class="main special">
 								<header class="major">
-									<h2>Magna veroeros</h2>
+									<h2>Let's Play</h2>
 								</header>
-								<ul class="features">
-									<li>
-										<span class="icon major style1 fa-code"></span>
-										<h3>Ipsum consequat</h3>
-										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
-									</li>
-									<li>
-										<span class="icon major style3 fa-copy"></span>
-										<h3>Amed sed feugiat</h3>
-										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
-									</li>
-									<li>
-										<span class="icon major style5 fa-diamond"></span>
-										<h3>Dolor nullam</h3>
-										<p>Sed lorem amet ipsum dolor et amet nullam consequat a feugiat consequat tempus veroeros sed consequat.</p>
-									</li>
-								</ul>
-								<footer class="major">
-									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn More</a></li>
-									</ul>
-								</footer>
+								<div align="center"><form name="frmTest" onsubmit="return false">
+								<h2 align="center" style="font-size: 2em !important; font-weight: bold;" id="innovation"></h2>
+								<input type="BUTTON" value="Let's Play!" id="button" onclick="getResult();" style="background-color: #C2113A; color: white !important; font-size: 16pt; font-weight: bold;">
+								<input type="BUTTON" value="" id="buttonwhite" onclick="getnewwhite();" style="visibility: hidden; font-size: 14pt; font-weight: bold;"><br />
+								</form>
+								</div>
+
+
 							</section>
 
 						<!-- Second Section -->
+
+
 							<section id="second" class="main special">
 								<header class="major">
-									<h2>Ipsum consequat</h2>
-									<p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
-									posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
+									<h2>Buy/Pirate/Download</h2>
+									<p> </p>
 								</header>
-								<ul class="statistics">
-									<li class="style1">
-										<span class="icon fa-code-fork"></span>
-										<strong>5,120</strong> Etiam
-									</li>
-									<li class="style2">
-										<span class="icon fa-folder-open-o"></span>
-										<strong>8,192</strong> Magna
-									</li>
-									<li class="style3">
-										<span class="icon fa-signal"></span>
-										<strong>2,048</strong> Tempus
-									</li>
-									<li class="style4">
-										<span class="icon fa-laptop"></span>
-										<strong>4,096</strong> Aliquam
-									</li>
-									<li class="style5">
-										<span class="icon fa-diamond"></span>
-										<strong>1,024</strong> Nullam
-									</li>
-								</ul>
-								<p class="content">Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.</p>
-								<footer class="major">
-									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn More</a></li>
-									</ul>
-								</footer>
+
+
+																<ul class="features">
+																	<li>
+																		<span class="icon major style1 fa-dollar"></span>
+																		<h3>Buy!</h3>
+																		<p>These cards are not yet for sale. Imagine you're living in a pre-post-consumer capitalist wasteland, devastated by information breaches.</p>
+																	</li>
+																	<li>
+																		<span class="icon major style3 fa-copy"></span>
+																		<h3>Pirate</h3>
+																		<p>The cards are CC-BY-NC-SA-4.0 licensed, so, uh, ok? You do you?</p>
+																	</li>
+																	<li>
+																		<span class="icon major style5 fa-download"></span>
+																		<h3>Download</h3>
+																		<p>We are still in alpha testing phase. You sure you want that $#!7 on your pristine system? We keep the dictionary file in the play-online widget <a href="#first">up above</a> synced with the cards we print.</p>
+																	</li>
+																</ul>
 							</section>
 
 						<!-- Get Started -->
 							<section id="cta" class="main special">
 								<header class="major">
-									<h2>Congue imperdiet</h2>
+									<h2>Leftover Lorem Ipsum that came with the theme </h2>
 									<p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
 									posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
 								</header>
-								<footer class="major">
-									<ul class="actions">
-										<li><a href="generic.html" class="button special">Get Started</a></li>
-										<li><a href="generic.html" class="button">Learn More</a></li>
-									</ul>
-								</footer>
+
+								<!--
+																<ul class="statistics">
+																	<li class="style1">
+																		<span class="icon fa-code-fork"></span>
+																		<strong>5,120</strong> Etiam
+																	</li>
+																	<li class="style2">
+																		<span class="icon fa-folder-open-o"></span>
+																		<strong>8,192</strong> Magna
+																	</li>
+																	<li class="style3">
+																		<span class="icon fa-signal"></span>
+																		<strong>2,048</strong> Tempus
+																	</li>
+																	<li class="style4">
+																		<span class="icon fa-laptop"></span>
+																		<strong>4,096</strong> Aliquam
+																	</li>
+																	<li class="style5">
+																		<span class="icon fa-diamond"></span>
+																		<strong>1,024</strong> Nullam
+																	</li>
+																</ul>
+																<p class="content">Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus. Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam porta. Cras eu ornare dui curabitur lacinia.</p>
+								-->
+
+
 							</section>
 
 					</div>
@@ -144,31 +146,25 @@
 				<!-- Footer -->
 					<footer id="footer">
 						<section>
-							<h2>Aliquam sed mauris</h2>
-							<p>Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat egestas velit, vitae tincidunt odio.</p>
-							<ul class="actions">
-								<li><a href="generic.html" class="button">Learn More</a></li>
+							<h2>License &amp; Credits</h2>
+<p><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.</p>
+							<ul>
+								<li>Stellar theme by <a href="html5up.net" target="_blank">HTML5 UP</a>, jekyll-ized by <a href="https://github.com/mrhornsby/html5up-stellar" target="_blank">mrhornsby</a>, Icons by <a href="fortawesome.github.com/Font-Awesome" target="_blank">Font Awesome</a></li>
+								<li>Other: <a href="https://jquery.com" target="_blank">jQuery</a>, <a href="https://github.com/aFarkas/html5shiv" target="_blank">html5shiv.js</a>, 	<a href="https://css3pie.com" target="_blank">CSS3 Pie</a>, 	<a href="https://j.mp/respondjs" target="_blank">Respond.js</a>, <a href="https://github.com/ajlkn/jquery.scrollex" target="_blank">Scrollex </a> , <a href="https://skel.io" target="_blank">Skel</a></li>
 							</ul>
+							</p>
 						</section>
 						<section>
-							<h2>Etiam feugiat</h2>
-							<dl class="alt">
-								<dt>Address</dt>
-								<dd>1234 Somewhere Road &bull; Nashville, TN 00000 &bull; USA</dd>
-								<dt>Phone</dt>
-								<dd>(000) 000-0000 x 0000</dd>
-								<dt>Email</dt>
-								<dd><a href="#">information@untitled.tld</a></dd>
-							</dl>
+							<h2>Contact us!</h2>
 							<ul class="icons">
-								<li><a href="#" class="icon fa-twitter alt"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon fa-facebook alt"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon fa-instagram alt"><span class="label">Instagram</span></a></li>
-								<li><a href="#" class="icon fa-github alt"><span class="label">GitHub</span></a></li>
-								<li><a href="#" class="icon fa-dribbble alt"><span class="label">Dribbble</span></a></li>
+								<li><a href="https://twitter.com/malic_content" class="icon fa-twitter alt"><span class="label">@malic_content</span></a></li>
+								<!--<li><a href="#" class="icon fa-facebook alt"><span class="label">Facebook</span></a></li>-->
+								<!--<li><a href="#" class="icon fa-instagram alt"><span class="label">Instagram</span></a></li>-->
+								<li><a href="https://github.com/joncamfield/malicious_content" class="icon fa-github alt"><span class="label">joncamfield/malicious_content</span></a></li>
+								<li><a href="mailto:maliciouscontent@pathbreaking.net" class="icon fa-envelope alt"><span class="label">maliciouscontent@pathbreaking.net</span></a></li>
 							</ul>
+							<p><em>For urgent communictions, please attach a macro-enabled Word document or a password-protected self-extracting zip file.</em></p>
 						</section>
-						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
 					</footer>
 
 			</div>
@@ -181,6 +177,59 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
+
+
+
+			<script type="text/javascript" src="assets/dictionary.js"></script>
+			<script language="JAVASCRIPT">
+
+			function safeRand() {
+			  Math.random();
+			  return Math.random();
+			}
+
+			function getResult(redwhite)
+			{
+				indexredcard = Math.floor(safeRand() * maxredcard);
+				indexwow = Math.floor(Math.random() * maxwow);
+				indexwhitecard = Math.floor(safeRand() * maxwhitecard);
+
+				redcard = arrayredcard[indexredcard];
+
+				redwhite = redcard.replace("__", "<u id=\"whitecard1\">" + arraywhitecard[indexwhitecard] + "</u>");
+
+					indexwhitecard2 = Math.round(Math.random() * maxwhitecard);
+					redwhite = redwhite.replace("__", "<u id=\"whitecard2\">" + arraywhitecard[indexwhitecard2] + "</u>");
+			 // alert (indexredcard + ", " + indexwhitecard);
+			//	document.getElementById("announce").innerHTML = arraywow[indexwow] + ":";
+				document.getElementById("innovation").innerHTML = redwhite;
+				document.getElementById("button").value = "Not dark enough?";
+				document.getElementById("buttonwhite").value = "Try another answer?";
+			  document.getElementById("buttonwhite").style.visibility = "visible";
+			}
+
+			</script>
+
+			<script language="JAVASCRIPT">
+			function getnewwhite(newhite)
+			{
+				indexwhitecard = Math.floor(Math.random() * maxwhitecard);
+				indexwhitecard2 = Math.floor(Math.random() * maxwhitecard);
+				indexwow = Math.floor(Math.random() * maxwow);
+			  newwhite = arraywhitecard[indexwhitecard];
+				newwhite2 = arraywhitecard[indexwhitecard2];
+
+// 	 	  document.getElementById("announce").innerHTML = arraywow[indexwow] + ":";
+				document.getElementById("whitecard1").innerHTML =  newwhite;
+				document.getElementById("whitecard2").innerHTML =  newwhite2;
+				document.getElementById("button").value = "Not dark enough?";
+				document.getElementById("buttonwhite").value = "Try another answer?";
+
+			}
+
+			</script>
+
+
 
 	</body>
 </html>
