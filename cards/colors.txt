@@ -1,0 +1,6 @@
+colors.txt
+
+red: de5748ff
+light red: #f2c8c4 fdd4d4ff ffedefff
+blue: 1b62b7ff
+light blue: #aecdf2 fdfdffff
