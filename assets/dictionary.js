@@ -98,5 +98,5 @@ arraywow = new Array (
 var maxredcard = arrayredcard.length - 1;
 var maxwhitecard = arraywhitecard.length - 1;
 // var maxpivot = arraypivot.length - 1;
-var maxtwist = arraytwist.length - 1;
+// var maxtwist = arraytwist.length - 1;
 var maxwow = arraywow.length - 1;

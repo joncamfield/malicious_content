@@ -110,8 +110,13 @@
 								</header>
 								<div align="center"><form name="frmTest" onsubmit="return false">
 								<h2 align="center" style="font-size: 2em !important; font-weight: bold;" id="innovation"></h2>
-								<input type="BUTTON" value="Let's Play!" id="button" onclick="getResult();" style="background-color: #C2113A; color: white !important; font-size: 16pt; font-weight: bold;">
-								<input type="BUTTON" value="" id="buttonwhite" onclick="getnewwhite();" style="visibility: hidden; font-size: 14pt; font-weight: bold;"><br />
+
+								<input type="BUTTON" value="Let's Play!" id="button" onclick="getResult();" style="background-color: #C2113A; color: white !important; font-size: 16pt; font-weight: bold;"> <br /> <br />
+
+								<input type="BUTTON" value="" id="buttonwhite" onclick="getnewwhite();" style="visibility: hidden; font-size: 14pt; font-weight: bold;">
+
+								<a style="visibility: hidden; background-color: #0084b4; color: white !important; font-size: 16pt; font-weight: bold;" class="button" href="" id="tweetit"><i class="fa fa-twitter" aria-hidden="true"></i> Tweet it</a>
+
 								</form>
 								</div>
 
@@ -257,6 +262,7 @@
 
 			</div>
 
+
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
@@ -265,8 +271,6 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
-
-
 
 			<script type="text/javascript" src="assets/dictionary.js"></script>
 			<script language="JAVASCRIPT">
@@ -287,13 +291,21 @@
 				redwhite = redcard.replace("__", "<u id=\"whitecard1\">" + arraywhitecard[indexwhitecard] + "</u>");
 
 					indexwhitecard2 = Math.round(Math.random() * maxwhitecard);
+
 					redwhite = redwhite.replace("__", "<u id=\"whitecard2\">" + arraywhitecard[indexwhitecard2] + "</u>");
+					redwhitetweet = redwhite.replace(/<[^>]+>/g, '');
+
+					tweeturl = "https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fmalicious-content.com&ref_src=twsrc%5Etfw&text=\"" + redwhitetweet + "\"&tw_p=tweetbutton&url=https%3A%2F%2Fmalicious-content.com&via=malic_content";
 			 // alert (indexredcard + ", " + indexwhitecard);
 			//	document.getElementById("announce").innerHTML = arraywow[indexwow] + ":";
 				document.getElementById("innovation").innerHTML = redwhite;
 				document.getElementById("button").value = "Play Again!";
-				document.getElementById("buttonwhite").value = "Swap in a different answer?";
+				document.getElementById("buttonwhite").value = "Swap Answer?";
 			  document.getElementById("buttonwhite").style.visibility = "visible";
+				document.getElementById("tweetit").style.visibility = "visible";
+
+				document.getElementById("tweetit").href = tweeturl;
+
 			}
 
 			</script>
@@ -306,13 +318,20 @@
 				indexwow = Math.floor(Math.random() * maxwow);
 			  newwhite = arraywhitecard[indexwhitecard];
 				newwhite2 = arraywhitecard[indexwhitecard2];
+				var newredwhite = document.getElementById("innovation").innerHTML;
+				newredwhitetweet = newredwhite.replace(/<.*>/g, newwhite);
+
+				tweeturl = "https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fmalicious-content.com&ref_src=twsrc%5Etfw&text=\"" + newredwhitetweet + "\"&tw_p=tweetbutton&url=https%3A%2F%2Fmalicious-content.com&via=malic_content";
+				document.getElementById("tweetit").href = tweeturl;
+
+
+
 
 // 	 	  document.getElementById("announce").innerHTML = arraywow[indexwow] + ":";
 				document.getElementById("whitecard1").innerHTML =  newwhite;
 				document.getElementById("whitecard2").innerHTML =  newwhite2;
 				document.getElementById("button").value = "Play Again!";
-				document.getElementById("buttonwhite").value = "Swap in a different answer?";
-
+				document.getElementById("buttonwhite").value = "Swap Answer?";
 			}
 
 			</script>
