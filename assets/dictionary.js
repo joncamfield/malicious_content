@@ -26,7 +26,9 @@ arrayredcard = new Array(
 "__ is the silver bullet next generation solution for __",
 "The next Russian APT group will be named __ Bear",
 "I turned to __ after the __ 0day",
-"Last week's hack mostly impacted the __ community."
+"Last week's hack mostly impacted the __ community.",
+"Using as many cards from your hand as you like, build the best acronym.",
+"Indicators of __"
 );
 
 arraywhitecard = new Array(
