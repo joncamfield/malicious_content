@@ -28,7 +28,8 @@ arrayredcard = new Array(
 "I turned to __ after the __ 0day",
 "Last week's hack mostly impacted the __ community.",
 "Using as many cards from your hand as you like, build the best acronym.",
-"Indicators of __"
+"Indicators of __",
+"Military Grade __"
 );
 
 arraywhitecard = new Array(
@@ -41,7 +42,6 @@ arraywhitecard = new Array(
 "Bitcoin",
 "the (motherfuckin') blockchain",
 "the cloud",
-"co-creation",
 "co-working spaces",
 "cyber",
 "cyber-unfree countries",
@@ -85,7 +85,8 @@ arraywhitecard = new Array(
 "confusion between a guide and a curricula",
 "zombo.com",
 "Flash as a hard requirement",
-"dark web"
+"dark web",
+"roll your own crypto"
 );
 
 arraywow = new Array (
