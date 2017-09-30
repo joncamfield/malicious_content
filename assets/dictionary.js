@@ -29,7 +29,11 @@ arrayredcard = new Array(
 "Last week's hack mostly impacted the __ community.",
 "Using as many cards from your hand as you like, build the best acronym.",
 "Indicators of __",
-"Military Grade __"
+"Military Grade __",
+"Something you know: __, something you have: __, something you are: __",
+"Confidentiality, integrity and  __",
+"__ over tor",
+"Pretty Good __"
 );
 
 arraywhitecard = new Array(
@@ -86,7 +90,13 @@ arraywhitecard = new Array(
 "zombo.com",
 "Flash as a hard requirement",
 "dark web",
-"roll your own crypto"
+"roll your own crypto",
+"the undying hopelessness of our profession",
+"1 Factor Authentication",
+"onion dildonics",
+"tor exit nodes",
+"Club Mate",
+"Whiskey"
 );
 
 arraywow = new Array (
