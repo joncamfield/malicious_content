@@ -33,7 +33,11 @@ arrayredcard = new Array(
 "Something you know: __, something you have: __, something you are: __",
 "Confidentiality, integrity and  __",
 "__ over tor",
-"Pretty Good __"
+"Pretty Good __",
+"__ isn't in my threat model",
+"The comprehensive and thoughtful, but completely forgotten, standard for __",
+"Quantum __",
+"__ in the middle"
 );
 
 arraywhitecard = new Array(
@@ -96,7 +100,18 @@ arraywhitecard = new Array(
 "onion dildonics",
 "tor exit nodes",
 "Club Mate",
-"Whiskey"
+"Whiskey",
+"AOL disks",
+"network neutrality",
+"zero-rated services",
+"stock photos of hooded hackers lit by the glow of a screen",
+"overly confident spokespeople",
+"tinfoil hats",
+"Offshore data havens in dubious jurisdictions",
+"Rubber-hose cryptoanalysis",
+"Alice and Bob",
+"Supply Chain attacks",
+"The Morris worm"
 );
 
 arraywow = new Array (
