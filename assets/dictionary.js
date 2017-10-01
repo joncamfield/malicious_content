@@ -95,7 +95,7 @@ arraywhitecard = new Array(
 "Flash as a hard requirement",
 "dark web",
 "roll your own crypto",
-"the undying hopelessness of our profession",
+"undying hopelessness of our profession",
 "1 Factor Authentication",
 "onion dildonics",
 "tor exit nodes",
@@ -111,7 +111,16 @@ arraywhitecard = new Array(
 "Rubber-hose cryptoanalysis",
 "Alice and Bob",
 "Supply Chain attacks",
-"The Morris worm"
+"The Morris worm",
+"Project Zero's Issue Queue",
+"getting @'d by taviso on Friday",
+"sexting",
+"hacking back",
+"Ignoring an email from the only legitimate Nigerian prince",
+"Smart devices with dumb passwords",
+"Finding out IT bought FinFisher for remote administration",
+"Magister pecuarius: The Analyst should not dismiss the reasonable potential of an attacker using trained animals to circumvent barriers and obstacles where a human being cannot. (https://archive.org/stream/OSSTMM.3/OSSTMM.3_djvu.txt)",
+"SSL added and removed here"
 );
 
 arraywow = new Array (
