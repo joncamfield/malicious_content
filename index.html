@@ -301,9 +301,9 @@
 					indexwhitecard2 = Math.round(Math.random() * maxwhitecard);
 
 					redwhite = redwhite.replace("__", "<u id=\"whitecard2\">" + arraywhitecard[indexwhitecard2] + "</u>");
-					redwhitetweet = redwhite.replace(/<[^>]+>/g, '');
+					redwhitetweet = redwhite.replace(/<[^>]+>/g, '_');
 
-					tweeturl = "https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fmalicious-content.com&ref_src=twsrc%5Etfw&text=\"" + redwhitetweet + "\"&tw_p=tweetbutton&url=https%3A%2F%2Fmalicious-content.com&via=malic_content";
+					tweeturl = "https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fmalicious-content.com&ref_src=twsrc%5Etfw&text=\"" + redwhitetweet + "\"&tw_p=tweetbutton&via=malic_content";
 			 // alert (indexredcard + ", " + indexwhitecard);
 			//	document.getElementById("announce").innerHTML = arraywow[indexwow] + ":";
 				document.getElementById("innovation").innerHTML = redwhite;
@@ -323,16 +323,16 @@
 			{
 				indexwhitecard = Math.floor(Math.random() * maxwhitecard);
 				indexwhitecard2 = Math.floor(Math.random() * maxwhitecard);
+				indexwhitecard3 = Math.floor(Math.random() * maxwhitecard);
 				indexwow = Math.floor(Math.random() * maxwow);
 			  newwhite = arraywhitecard[indexwhitecard];
 				newwhite2 = arraywhitecard[indexwhitecard2];
 				var newredwhite = document.getElementById("innovation").innerHTML;
-				newredwhitetweet = newredwhite.replace(/<.*>/g, newwhite);
+				newwhite2 = "_" + newwhite2 + "_";
+				newredwhitetweet = newredwhite.replace(/<.*>/g, );
 
-				tweeturl = "https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fmalicious-content.com&ref_src=twsrc%5Etfw&text=\"" + newredwhitetweet + "\"&tw_p=tweetbutton&url=https%3A%2F%2Fmalicious-content.com&via=malic_content";
+				tweeturl = "https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fmalicious-content.com&ref_src=twsrc%5Etfw&text=\"" + newredwhitetweet + "\"&tw_p=tweetbutton&via=malic_content";
 				document.getElementById("tweetit").href = tweeturl;
-
-
 
 
 // 	 	  document.getElementById("announce").innerHTML = arraywow[indexwow] + ":";
