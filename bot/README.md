@@ -1,4 +1,4 @@
-Metaphor-a-Minute!
+Bot based on Metaphor-a-Minute ; twit-based bot.
 ==========
 
 Requires [node](http://nodejs.org/) and [npm](http://npmjs.org/). You also need a Twitter App access token, consumer key, and associated secrets: https://dev.twitter.com/apps/new
@@ -13,4 +13,7 @@ Finally, you need a Wordnik API key, which you can apply for here: http://develo
 
 > npm install express@2.5.9
 
-> node metaphor.js
+> npm install striptags
+
+> node tweet.js
+
