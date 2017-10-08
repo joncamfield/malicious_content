@@ -1,4 +1,4 @@
-arrayredcard = new Array(
+var arrayredcard = new Array(
 "A blockchain for __",
 "A botnet of __",
 "Artisanal, handcrafted malware to target __",
@@ -40,7 +40,7 @@ arrayredcard = new Array(
 "__ in the middle"
 );
 
-arraywhitecard = new Array(
+var arraywhitecard = new Array(
 "12345 as a password",
 "Admin accounts for everyone",
 "Advanced Persistent Threats",
@@ -93,7 +93,7 @@ arraywhitecard = new Array(
 "confusion between a guide and a curricula",
 "zombo.com",
 "Flash as a hard requirement",
-"dark web",
+"the dark web",
 "roll your own crypto",
 "undying hopelessness of our profession",
 "1 Factor Authentication",
@@ -119,8 +119,9 @@ arraywhitecard = new Array(
 "Ignoring an email from the only legitimate Nigerian prince",
 "Smart devices with dumb passwords",
 "Finding out IT bought FinFisher for remote administration",
-"Magister pecuarius: The Analyst should not dismiss the reasonable potential of an attacker using trained animals to circumvent barriers and obstacles where a human being cannot. (https://archive.org/stream/OSSTMM.3/OSSTMM.3_djvu.txt)",
-"SSL added and removed here"
+"The magister pecuarius (OSSTTMM)", // The Analyst should not dismiss the reasonable potential of an attacker using trained animals to circumvent barriers and obstacles where a human being cannot. (https://archive.org/stream/OSSTMM.3/OSSTMM.3_djvu.txt)",
+"SSL added and removed here",
+"Self driving cars"
 );
 
 arraywow = new Array (
@@ -135,3 +136,5 @@ var maxwhitecard = arraywhitecard.length - 1;
 // var maxpivot = arraypivot.length - 1;
 // var maxtwist = arraytwist.length - 1;
 var maxwow = arraywow.length - 1;
+
+module.exports = {arrayredcard, arraywhitecard};

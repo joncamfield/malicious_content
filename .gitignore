@@ -1,2 +1,6 @@
 .sass-cache
 _site
+bot/config.js
+bot/node_modules/
+bot/package-lock.json
+cards/*_autosave_*
