@@ -19,7 +19,6 @@ var arrayredcard = new Array(
 "Malware is now being distributed through __",
 "Mesh __",
 "Next generation __",
-"Rapid response __",
 "Dual-use surveillance technology for __",
 "Threat information sharing for the __ community",
 "I only provide digital security training on __ now.",
@@ -27,7 +26,6 @@ var arrayredcard = new Array(
 "The next Russian APT group will be named __ Bear",
 "I turned to __ after the __ 0day",
 "Last week's hack mostly impacted the __ community.",
-"Using as many cards from your hand as you like, build the best acronym.",
 "Indicators of __",
 "Military Grade __",
 "Something you know: __, something you have: __, something you are: __",
@@ -37,7 +35,8 @@ var arrayredcard = new Array(
 "__ isn't in my threat model",
 "The comprehensive and thoughtful, but completely forgotten, standard for __",
 "Quantum __",
-"__ in the middle"
+"__ in the middle",
+"yet another __"
 );
 
 var arraywhitecard = new Array(
@@ -60,12 +59,9 @@ var arraywhitecard = new Array(
 "diaspora communities",
 "distributed denial of service attacks",
 "Facebook",
-"freedom of expression",
-"fragile states",
 "hackathons",
 "human-centered design",
 "instagram filters",
-"internet freedom grant proposals",
 "Linux on the desktop",
 "mailing lists and wikis",
 "mansplaining",
@@ -83,7 +79,6 @@ var arraywhitecard = new Array(
 "Trolling",
 "unpatched, unlicensed  Windows boxes",
 "'use Signal, use tor'",
-"vulnerable populations",
 "wearables",
 "The NSA",
 "Troll Farms",
