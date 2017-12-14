@@ -51,17 +51,14 @@ var arraywhitecard = new Array(
 "the cloud",
 "co-working spaces",
 "cyber",
-"cyber-unfree countries",
 "yet another digital security training",
 "yet another digital security guide",
 "DEFCON attendees",
 "drones",
-"diaspora communities",
 "distributed denial of service attacks",
 "Facebook",
 "hackathons",
 "human-centered design",
-"instagram filters",
 "Linux on the desktop",
 "mailing lists and wikis",
 "mansplaining",
@@ -72,7 +69,6 @@ var arraywhitecard = new Array(
 "PGP for the average user",
 "porn",
 "Russia",
-"Snapchat",
 "Skype calls to discuss communication security",
 "Taylor Swift",
 "Threat information sharing",
@@ -86,7 +82,6 @@ var arraywhitecard = new Array(
 "fancy bear",
 "correct horse battery staple (https://xkcd.com/936/)",
 "confusion between a guide and a curricula",
-"zombo.com",
 "Flash as a hard requirement",
 "the dark web",
 "roll your own crypto",
@@ -116,7 +111,8 @@ var arraywhitecard = new Array(
 "Finding out IT bought FinFisher for remote administration",
 "The magister pecuarius (OSSTTMM)", // The Analyst should not dismiss the reasonable potential of an attacker using trained animals to circumvent barriers and obstacles where a human being cannot. (https://archive.org/stream/OSSTMM.3/OSSTMM.3_djvu.txt)",
 "SSL added and removed here",
-"Self driving cars"
+"Self driving cars",
+"Squirrels"
 );
 
 arraywow = new Array (
