@@ -6,11 +6,13 @@ var arrayifredcard = new Array(
   "Using as many cards from your hand as you like, build the best acronym.",
   "Mesh __",
   "According to Freedom on the Net, this is the 7th consecutive year of decreasing __",
-  "Countering violent __"
+  "Countering violent __",
+  "My digital security trainings now only cover __"
+  "__",
 );
 
 var arrayifwhitecard = new Array(
-  "Casey's Coffee",
+  "Meetings at Casey's Coffee",
   "internet freedom grant proposals",
   "fragile states",
   "cyber-unfree countries",
@@ -22,6 +24,13 @@ var arrayifwhitecard = new Array(
   "freedom of expression",
   "diaspora communities",
   "Internet shutdowns",
+  "yet another digital security training",
+  "yet another digital security guide",
+  "confusion between a guide and a curricula",
+  "vulnerable populations",
+  "",
+  "",
+  "",
   ""
 );
 
