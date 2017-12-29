@@ -1,65 +1,52 @@
-var arrayredcard = new Array(
+var arraybluecard = new Array(
 "A blockchain for __",
-"A botnet of __",
 "Artisanal, handcrafted malware to target __",
-"Cyber. cyber cyber cyber, __, cyber!",
-"Circumventing __ ",
-"Let's use blockchain to secure __",
+"Cyber-__",
 "My secure login uses  __",
 "My threat model is based entirely on __",
-"Open sourced __",
 "I started using tor because of __",
-"I really wish there was a solid anti-virus solution for __",
+"We're launching a next-generation anti-virus solution for __",
 "I explain PGP using __",
-"Internet of __",
 "__ over secure messaging",
 "It's like __ but for __",
 "My new encryption algorithm is based on __",
 "Malware is now being distributed through __",
-"Dual-use surveillance technology exports are legitimized by __",
+"Dual-use surveillance technology exports are being legitimized by __",
 "Threat information sharing for the __ community",
-"I only provide digital security training on __ now.",
-"__ is the silver bullet next generation solution for __",
+"__ is the silver bullet solution for __",
 "The next Russian APT group will be named __ Bear",
 "I turned to __ after the __ 0day",
 "Last week's hack mostly impacted the __ community.",
-"Indicators of __",
 "Military Grade __",
-"Something you know: __, something you have: __, something you are: __",
 "Confidentiality, integrity and  __",
 "__ over tor",
 "Pretty Good __",
 "__ isn't in my threat model",
-"The comprehensive and thoughtful, but completely forgotten, standard for __",
+"The comprehensive, thoughtful, and completely ignored, standard for __",
 "__ in the middle",
-"yet another __",
-"the pentester succeeded, thanks to __",
-"__ ? Well, it depends.",
-"__-based Distritubted Denial of Service attacks",
-"The latest branded vulnerability exposes __ to __", //IF Dictionary
+"The pentester succeeded, thanks to __",
+"The latest big-brand vulnerability exposes __ to __", //IF Dictionary
 "USG funded __",
 "A venture capital styled approach for __",
 "Cybernefarious __",
-"Rapid response __",
-"Using as many cards from your hand as you like, build the best acronym.",
-"Mesh __",
-"According to Freedom on the Net, this is the 7th consecutive year of decreasing __",
-"Countering violent __",
+"Rapid response options for __",
+"According to Freedom on the Net, this is the 7th consecutive year of worsening __",
 "My digital security trainings now only cover __"
 );
 
 
-var arraywhitecard = new Array(
+var arrayredcard = new Array(
+"the Magister Pecuarius (OSSTTMM)", // The Analyst should not dismiss the reasonable potential of an attacker using trained animals to circumvent barriers and obstacles where a human being cannot. (https://archive.org/stream/OSSTMM.3/OSSTMM.3_djvu.txt)",
 "12345 as a password",
 "admin accounts for everyone",
 "Advanced Persistent Threats",
 "attribution dice",
 "app stores",
-"big data",
+"'Big Data' with small data sets",
 "Bitcoin",
 "the (motherfuckin') blockchain",
 "the cloud",
-"co-working spaces",
+"private conversations in co-working spaces",
 "cyber",
 "DEFCON attendees",
 "drones",
@@ -70,15 +57,12 @@ var arraywhitecard = new Array(
 "Linux on the desktop",
 "mailing lists and wikis",
 "mansplaining",
-"mesh networking",
 "netflix and chill",
-"open source",
 "PGP for the average user",
 "porn",
 "Russia",
 "Skype calls to discuss communication security",
-"@SwiftonSecurity",
-"threat information sharing",
+"detail-free threat information sharing",
 "trolling",
 "unpatched, unlicensed  Windows boxes",
 "'use Signal, use tor'",
@@ -87,9 +71,9 @@ var arraywhitecard = new Array(
 "troll farms",
 "RFC 2549 compliant encrypted carrier-pigeons",
 "Fancy Bear",
-"correct horse battery staple (https://xkcd.com/936/)",
+"correct horse battery staple (xkcd.com/936)",
 "Flash as a hard requirement",
-"the dark web",
+"the 'dark web'",
 "roll your own crypto",
 "the undying hopelessness of our profession",
 "1 Factor Authentication",
@@ -97,7 +81,6 @@ var arraywhitecard = new Array(
 "tor exit nodes",
 "Club Mate",
 "the good whiskey",
-"AOL disks",
 "network neutrality",
 "zero-rated services",
 "stock photos of hooded hackers lit by the glow of a screen",
@@ -107,19 +90,25 @@ var arraywhitecard = new Array(
 "Rubber-hose cryptoanalysis",
 "Alice and Bob",
 "Supply Chain attacks",
-"The Morris worm",
+"Project Zero's issue queue",
 "getting @'d by taviso on Friday",
 "sexting",
 "hacking back",
 "ignoring an email from the only legitimate Nigerian official",
 "smart devices with dumb passwords",
 "finding out IT bought FinFisher for remote administration",
-"the Magister Pecuarius (OSSTTMM)", // The Analyst should not dismiss the reasonable potential of an attacker using trained animals to circumvent barriers and obstacles where a human being cannot. (https://archive.org/stream/OSSTMM.3/OSSTMM.3_djvu.txt)",
 "SSL added and removed here",
 "squirrels",
 "infosec shitposting on twitter",
-"Patch Tuesday", //IF Dictionary
-//"Meetings at Casey's Coffee",
+"Patch Tuesday",
+"just saying 'it depends' a lot",
+"Internet of things botnets",
+"127.0.0.1 as an indicator of compromise",
+"hotel 'staff'",
+"a critical, open, 10-year old usability bug marked #wontfix",
+ //IF Dictionary
+"Meetings at Casey's Coffee",
+"mesh networking",
 "internet freedom grant proposals",
 "fragile states",
 "cyber-unfree countries",
@@ -131,9 +120,10 @@ var arraywhitecard = new Array(
 "freedom of expression",
 "diaspora communities",
 "Internet shutdowns",
+"circumventing censorship but not surveillance",
 "yet another digital security training",
 "yet another digital security guide",
-"confusion between a guide and a curricula",
+"the eternal confusion between a guide and a curricula",
 "vulnerable populations"
 );
 
@@ -144,10 +134,10 @@ arraywow = new Array (
 "Really? That's just dark."
 );
 
+var maxbluecard = arraybluecard.length - 1;
 var maxredcard = arrayredcard.length - 1;
-var maxwhitecard = arraywhitecard.length - 1;
 // var maxpivot = arraypivot.length - 1;
 // var maxtwist = arraytwist.length - 1;
 var maxwow = arraywow.length - 1;
 
-module.exports = {arrayredcard, arraywhitecard};
+module.exports = {arraybluecard, arrayredcard};

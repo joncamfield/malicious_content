@@ -130,7 +130,7 @@
 
 								<input type="BUTTON" value="Let's Play!" id="button" onclick="getResult();" style="background-color: #C2113A; color: white !important; font-weight: bold; 	"> <br /> <br />
 
-								<input type="BUTTON" value="" id="buttonwhite" onclick="getnewwhite();" style="visibility: hidden;">
+								<input type="BUTTON" value="" id="buttonwhite" onclick="getnewred();" style="visibility: hidden;">
 
 								<a style="visibility: hidden; background-color: #0084b4; color: white !important; " class="button" href="" id="tweetit"><i class="fa fa-twitter" aria-hidden="true"></i> Tweet it</a>
 
@@ -303,25 +303,25 @@
 			  return Math.random();
 			}
 
-			function getResult(redwhite)
+			function getResult(bluered)
 			{
-				indexredcard = Math.floor(safeRand() * maxredcard);
+				indexbluecard = Math.floor(safeRand() * maxbluecard);
 				indexwow = Math.floor(Math.random() * maxwow);
-				indexwhitecard = Math.floor(safeRand() * maxwhitecard);
+				indexredcard = Math.floor(safeRand() * maxredcard);
 
-				redcard = arrayredcard[indexredcard];
+				bluecard = arraybluecard[indexbluecard];
 
-				redwhite = redcard.replace("__", "<u id=\"whitecard1\">" + arraywhitecard[indexwhitecard] + "</u>");
+				bluered = bluecard.replace("__", "<u id=\"redcard1\">" + arrayredcard[indexredcard] + "</u>");
 
-					indexwhitecard2 = Math.round(Math.random() * maxwhitecard);
+					indexredcard2 = Math.round(Math.random() * maxredcard);
 
-					redwhite = redwhite.replace("__", "<u id=\"whitecard2\">" + arraywhitecard[indexwhitecard2] + "</u>");
-					redwhitetweet = redwhite.replace(/<[^>]+>/g, '_');
+					bluered = bluered.replace("__", "<u id=\"redcard2\">" + arrayredcard[indexredcard2] + "</u>");
+					blueredtweet = bluered.replace(/<[^>]+>/g, '_');
 
-					tweeturl = "https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fmalicious-content.com&ref_src=twsrc%5Etfw&text=\"" + redwhitetweet + "\"&tw_p=tweetbutton&via=malic_content";
-			 // alert (indexredcard + ", " + indexwhitecard);
+					tweeturl = "https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fmalicious-content.com&ref_src=twsrc%5Etfw&text=\"" + blueredtweet + "\"&tw_p=tweetbutton&via=malic_content";
+			 // alert (indexbluecard + ", " + indexredcard);
 			//	document.getElementById("announce").innerHTML = arraywow[indexwow] + ":";
-				document.getElementById("innovation").innerHTML = redwhite;
+				document.getElementById("innovation").innerHTML = bluered;
 				document.getElementById("button").value = "Play Again!";
 				document.getElementById("buttonwhite").value = "Swap Answer?";
 			  document.getElementById("buttonwhite").style.visibility = "visible";
@@ -334,25 +334,25 @@
 			</script>
 
 			<script language="JAVASCRIPT">
-			function getnewwhite(newhite)
+			function getnewred(newred)
 			{
-				indexwhitecard = Math.floor(Math.random() * maxwhitecard);
-				indexwhitecard2 = Math.floor(Math.random() * maxwhitecard);
-				indexwhitecard3 = Math.floor(Math.random() * maxwhitecard);
+				indexredcard = Math.floor(Math.random() * maxredcard);
+				indexredcard2 = Math.floor(Math.random() * maxredcard);
+				indexredcard3 = Math.floor(Math.random() * maxredcard);
 				indexwow = Math.floor(Math.random() * maxwow);
-			  newwhite = arraywhitecard[indexwhitecard];
-				newwhite2 = arraywhitecard[indexwhitecard2];
-				var newredwhite = document.getElementById("innovation").innerHTML;
-				newwhite2 = "_" + newwhite2 + "_";
-				newredwhitetweet = newredwhite.replace(/<.*>/g, );
+			  newred = arrayredcard[indexredcard];
+				newred2 = arrayredcard[indexredcard2];
+				var newbluered = document.getElementById("innovation").innerHTML;
+				newred2 = "_" + newwhite2 + "_";
+				newblueredtweet = newbluered.replace(/<.*>/g, );
 
-				tweeturl = "https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fmalicious-content.com&ref_src=twsrc%5Etfw&text=\"" + newredwhitetweet + "\"&tw_p=tweetbutton&via=malic_content";
+				tweeturl = "https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fmalicious-content.com&ref_src=twsrc%5Etfw&text=\"" + newblueredtweet + "\"&tw_p=tweetbutton&via=malic_content";
 				document.getElementById("tweetit").href = tweeturl;
 
 
 // 	 	  document.getElementById("announce").innerHTML = arraywow[indexwow] + ":";
-				document.getElementById("whitecard1").innerHTML =  newwhite;
-				document.getElementById("whitecard2").innerHTML =  newwhite2;
+				document.getElementById("redcard1").innerHTML =  newred;
+				document.getElementById("redcard2").innerHTML =  newred2;
 				document.getElementById("button").value = "Play Again!";
 				document.getElementById("buttonwhite").value = "Swap Answer?";
 			}
