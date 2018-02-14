@@ -1,14 +1,9 @@
 var arrayifredcard = new Array(
   "USG funded __",
   "A venture capital styled approach for __",
-  "Cybernefarious __",
-  "Rapid response __",
-  "Using as many cards from your hand as you like, build the best acronym.",
-  "Mesh __",
+  "Mesh-enabled __",
   "According to Freedom on the Net, this is the 7th consecutive year of decreasing __",
-  "Countering violent __",
   "My digital security trainings now only cover __"
-  "__",
 );
 
 var arrayifwhitecard = new Array(
@@ -16,22 +11,15 @@ var arrayifwhitecard = new Array(
   "internet freedom grant proposals",
   "fragile states",
   "cyber-unfree countries",
-  "33 cybers per page",
-  "Eric Johnson",
   "rejecting government funding in favor of corporate funding",
   "1-page copypasta risk assessments",
   "vulnerable populations",
   "freedom of expression",
   "diaspora communities",
   "Internet shutdowns",
-  "yet another digital security training",
-  "yet another digital security guide",
+  "yet another digital security training/guide/curricula",
   "confusion between a guide and a curricula",
-  "vulnerable populations",
-  "",
-  "",
-  "",
-  ""
+  "Glitter"
 );
 
 arraywow = new Array (
