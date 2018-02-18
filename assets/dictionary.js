@@ -112,7 +112,6 @@ var arrayredcard = new Array(
 "freedom of expression",
 "Internet shutdowns",
 "diaspora communities",
-"vulnerable populations"
 //"Eric Johnson",
 "Meetings at Casey's Coffee",
 "internet freedom grant proposals",

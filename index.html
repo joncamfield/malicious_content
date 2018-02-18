@@ -343,12 +343,11 @@
 			  newred = arrayredcard[indexredcard];
 				newred2 = arrayredcard[indexredcard2];
 				var newbluered = document.getElementById("innovation").innerHTML;
-				newred2 = "_" + newwhite2 + "_";
+				newred2 = "_" + newred2 + "_";
 				newblueredtweet = newbluered.replace(/<.*>/g, );
 
 				tweeturl = "https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fmalicious-content.com&ref_src=twsrc%5Etfw&text=\"" + newblueredtweet + "\"&tw_p=tweetbutton&via=malic_content";
 				document.getElementById("tweetit").href = tweeturl;
-
 
 // 	 	  document.getElementById("announce").innerHTML = arraywow[indexwow] + ":";
 				document.getElementById("redcard1").innerHTML =  newred;
