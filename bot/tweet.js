@@ -17,25 +17,25 @@ function safeRand() {
 
 function makeMetaphor() {
 
+  var maxbluecard = cards.arraybluecard.length - 1;
   var maxredcard = cards.arrayredcard.length - 1;
-  var maxwhitecard = cards.arraywhitecard.length - 1;
 
+  indexbluecard = Math.floor(safeRand() * maxbluecard);
   indexredcard = Math.floor(safeRand() * maxredcard);
-  indexwhitecard = Math.floor(safeRand() * maxwhitecard);
-  indexwhitecard2 = Math.floor(safeRand() * maxwhitecard);
-  indexwhitecard3 = Math.floor(safeRand() * maxwhitecard);
+  indexredcard2 = Math.floor(safeRand() * maxredcard);
+  indexredcard3 = Math.floor(safeRand() * maxredcard);
 
-  redcard = cards.arrayredcard[indexredcard];
+  bluecard = cards.arraybluecard[indexbluecard];
 
-  redwhite = redcard.replace("__", "<u id=\"whitecard1\">_" + cards.arraywhitecard[indexwhitecard] + "_</u>");
-  redwhite = redwhite.replace("__", "<u id=\"whitecard2\">_" + cards.arraywhitecard[indexwhitecard2] + "_</u>");
-  redwhite = redwhite.replace("__", "<u id=\"whitecard3\">_" + cards.arraywhitecard[indexwhitecard3] + "_</u>");
+  bluered = bluecard.replace("__", "<u id=\"redcard1\">_" + cards.arrayredcard[indexredcard] + "_</u>");
+  bluered = bluered.replace("__", "<u id=\"redcard2\">_" + cards.arrayredcard[indexredcard2] + "_</u>");
+  bluered = bluered.replace("__", "<u id=\"redcard3\">_" + cards.arrayredcard[indexredcard3] + "_</u>");
 
-  statement = redwhite.replace(/<[^>]+>/g, '');
+  statement = bluered.replace(/<[^>]+>/g, '');
 
 //	statement = "It's " + arraypivot[indexpivot] + ", but with Blockchain technology!";
 	console.time('timestamp');
-	console.log('There are ' + maxredcard + ' red cards, and ' + maxwhitecard + ' blue cards');
+	console.log('There are ' + maxbluecard + ' blue cards, and ' + maxredcard + ' red cards');
 	console.log('Just generated a great ' + statement.length  + ' character-long idea.: ' + statement );
 	return (statement);
 }

@@ -115,7 +115,7 @@ var arrayredcard = new Array(
 "vulnerable populations",
 //"Eric Johnson",
 "Meetings at Casey's Coffee",
-"internet freedom grant proposals",
+"internet freedom grant proposals"
 );
 
 arraywow = new Array (
