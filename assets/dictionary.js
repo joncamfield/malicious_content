@@ -30,7 +30,8 @@ var arraybluecard = new Array(
 "The USGov is now providing a venture capital styled funding approach for __",
 "We need rapid-response capabilities to mitigate __",
 "According to Freedom on the Net, this is the 7th consecutive year of worsening __",
-"My digital security trainings now only cover __"
+"My digital security trainings now only cover __",
+"__ resolved internet freedom issues in my country"
 );
 
 
@@ -95,7 +96,9 @@ var arrayredcard = new Array(
 "a critical, open, 10-year old usability bug marked #wontfix",
 "entry/exit policies that don't cover social media accounts",
 "measuring expertise by the number of cybers per page",
+"crypto - but in reference to cryptocurrency",
 "hacking back",
+"rockstars",
 "The NSA",
 "Facebook",
 "app stores",
@@ -113,7 +116,6 @@ var arrayredcard = new Array(
 "Internet shutdowns",
 "diaspora communities",
 "vulnerable populations",
-//"Eric Johnson",
 "Meetings at Casey's Coffee",
 "internet freedom grant proposals"
 );
