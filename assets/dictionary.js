@@ -26,6 +26,7 @@ var arraybluecard = new Array(
 "__ in the middle",
 "The pentester succeeded, thanks to __",
 "The next branded vulnerability will break __",
+"There are only 3 people in the world who truly understand __"
 //IF Dictionary
 "The USGov is now providing a venture capital styled funding approach for __",
 "We need rapid-response capabilities to mitigate __",
@@ -104,6 +105,9 @@ var arrayredcard = new Array(
 "app stores",
 "squirrels",
 "network neutrality",
+"alice and bob",
+"supply chain attacks",
+"the Morris Worm",
  //IF Dictionary
 "cyber-nefarious countries",
 "zero-rated services accidentally providing open proxies",
