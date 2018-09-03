@@ -108,6 +108,7 @@ var arrayredcard = new Array(
 "alice and bob",
 "supply chain attacks",
 "the Morris Worm",
+"being able to drunk-type a high-entropy passphrase",
  //IF Dictionary
 "cyber-nefarious countries",
 "zero-rated services accidentally providing open proxies",
