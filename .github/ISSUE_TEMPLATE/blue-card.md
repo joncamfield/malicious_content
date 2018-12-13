@@ -1,7 +1,7 @@
 ---
 name: Blue Card
 about: Please use the guidance gere to suggest a new blue card
-title: Red Card Suggestion
+title: Blue Card Suggestion
 labels: BlueCard
 assignees: ''
 
