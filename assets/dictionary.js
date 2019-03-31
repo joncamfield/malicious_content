@@ -25,7 +25,7 @@ var arraybluecard = new Array(
 "__ in the middle",
 "The pentester succeeded, thanks to __",
 "The next branded vulnerability will break __",
-"There are only 3 people in the world who truly understand __"
+"There are only 3 people in the world who truly understand __",
 //IF Dictionary
 "Dual-use surveillance technology exports are being legitimized by __",
 //"The USGov is now providing a venture capital styled funding approach for __",
