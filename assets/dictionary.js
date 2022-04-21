@@ -127,7 +127,7 @@ var arrayredcard = new Array(
 "a SCIF",
 "gaslighting",
 "holistic security",
-"an airgapped GnuPG key",
+//"an airgapped GnuPG key",
 "people who still defend Julian Assange",
 "psycho-pathic socio-pathic care",
 //IF Dictionary
@@ -150,7 +150,8 @@ var arrayredcard = new Array(
 "Trainings of trainers of trainers of trainers of trainers",
 "Cuban p2p mesh twitter",
 "Finding local high risk partners through public social media posts",
-"running out of post-it notes"
+"running out of post-it notes",
+"accepting the risk on behalf of the beneficiary"
 );
 //"Linux on the desktop",
 //"getting @'d by taviso on Friday",
