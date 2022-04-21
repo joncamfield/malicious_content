@@ -21,7 +21,7 @@ var arraybluecard = new Array(
 "The comprehensive, thoughtful, and completely ignored, standard for __",
 "__ in the middle",
 "The pentester succeeded, thanks to __",
-"There are only 3 people in the world who truly understand __"
+"There are only 3 people in the world who truly understand __",
 "Coordinated Inauthentic __",
 "__ , that's why I drink",
 "Well, actually, the real solution is __",
@@ -143,7 +143,7 @@ var arrayredcard = new Array(
 "diaspora communities",
 "vulnerable populations",
 "Meetings at Casey's Coffee",
-"internet freedom grant proposals"
+"internet freedom grant proposals",
 "taking the grant money and running",
 "Unpaid internships at a social justice NGO",
 "ADIDS",
