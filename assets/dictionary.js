@@ -151,7 +151,10 @@ var arrayredcard = new Array(
 "Cuban p2p mesh twitter",
 "Finding local high risk partners through public social media posts",
 "running out of post-it notes",
-"accepting the risk on behalf of the beneficiary"
+"accepting the risk on behalf of the beneficiary",
+"right-click, save-as",
+"accidentally viewing source with F12",
+"centralized shitcoin scams masquerading as decentralization"
 );
 //"Linux on the desktop",
 //"getting @'d by taviso on Friday",
