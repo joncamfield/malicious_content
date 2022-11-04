@@ -154,7 +154,8 @@ var arrayredcard = new Array(
 "accepting the risk on behalf of the beneficiary",
 "right-click, save-as",
 "accidentally viewing source with F12",
-"centralized shitcoin scams masquerading as decentralization"
+"centralized shitcoin scams masquerading as decentralization",
+"some copies of SIMS 3"
 );
 //"Linux on the desktop",
 //"getting @'d by taviso on Friday",
