@@ -118,7 +118,7 @@ var arrayredcard = new Array(
 "being able to drunk-type a high-entropy passphrase",
 "NFT rug-pulls",
 "metaverse griefers",
-"Buggy DAO js fails",
+"Using buggy javascript to define contracts for DAOs",
 "self-doxxing",
 "dumpster fires",
 "keyloggers",
