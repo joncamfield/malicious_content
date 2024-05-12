@@ -21,8 +21,8 @@ randred.sort(() => Math.random() - 0.5);
 var bluecard = cards.arraybluecard[randblue.slice(0,1)]
 
 var bluered = bluecard.replace("__", "<u id=\"redcard1\">" + cards.arrayredcard[randred.slice(0,1)] + "</u>");
-var bluered = bluecard.replace("__", "<u id=\"redcard1\">" + cards.arrayredcard[randred.slice(1,2)] + "</u>");
-var bluered = bluecard.replace("__", "<u id=\"redcard1\">" + cards.arrayredcard[randred.slice(2,3)] + "</u>");
+var bluered = bluered.replace("__", "<u id=\"redcard1\">" + cards.arrayredcard[randred.slice(1,2)] + "</u>");
+var bluered = bluered.replace("__", "<u id=\"redcard1\">" + cards.arrayredcard[randred.slice(2,3)] + "</u>");
 
 var statement = bluered.replace(/<[^>]+>/g, '_');
 
