@@ -82,18 +82,36 @@
 								<header class="major">
 									<h2>Test Drive</h2>
 								</header>
-								<a href="https://decks.rereadgames.com/decks/06QRZ" class="button" style="background-color: #C2113A; color: white !important; font-weight: bold;">Play online!</a>
-								<p>Head over to <a href="https://md.rereadgames.com/#new">Massive Decks</a> and use Deck Code <a href="https://decks.rereadgames.com/decks/06QRZ">06QRZ</a>. You, uh, have to have at least 2 other friends tho</p>
-								<div align="center"><form name="frmTest" onsubmit="return false">
+								<div align="center">
+								<form name="frmTest" onsubmit="return false">
+
+								<input type="BUTTON" value="Show me cards!" id="button" onclick="getResult();" style="background-color: #C2113A; color: white !important; font-weight: bold; 	"> 
+
+								<input type="BUTTON" value="" id="buttonwhite" onclick="getnewred();" style="display: none;">
+								<br /> <br />
+
+<!-- 								<a style="visibility: hidden; background-color: #0084b4; color: white !important; " class="button" href="" id="tweetit"><i class="fa fa-twitter" aria-hidden="true"></i> Tweet it</a>
+-->
+
+
 								<h2 align="center" style="font-size: 2em !important; font-weight: bold;" id="innovation"></h2>
 
-								<input type="BUTTON" value="Show me random cards instead" id="button" onclick="getResult();" style="background-color: #C2113A; color: white !important; font-weight: bold; 	"> <br /> <br />
+							<div style="position: relative; width: 100%; min-width: 700px; min-height: 500px; padding-top: 5%; ">
+								<div style="box-sizing: border-box; position: absolute; left: 20%; width: 300px; height: 400px;  background: #FFFFFF; background-image: url(images/key-redblue.png); border: 5px solid #000099; border-radius: 15px; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5); transform: rotate(-16deg);">						
+									<p id="visbluecard" align="center" style="padding: 45% 5% 5% 5%; font-size: 1.25em !important; line-height: 1em; font-weight: bold;"><br /><br /></div>
 
-								<input type="BUTTON" value="" id="buttonwhite" onclick="getnewred();" style="visibility: hidden;">
+								<div style="box-sizing: border-box; position: absolute; top: 5%; left: 50%; width: 300px; height: 400px; background: #FFFFFF;  background-image: url(images/key-redblue.png); border: 5px solid #C2113A;  border-radius: 15px; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5); transform: rotate(10deg);">
+									<p id="visredcard1" align="center" style="padding: 45% 5% 5% 5%; font-size: 1.25em !important; line-height: 1em; font-weight: bold;"><br /><br /></p>
+								</div>
 
-								<a style="visibility: hidden; background-color: #0084b4; color: white !important; " class="button" href="" id="tweetit"><i class="fa fa-twitter" aria-hidden="true"></i> Tweet it</a>
-
+								<div id="redcard2box" style="visibility: hidden; box-sizing: border-box; position: absolute; left: 75%; width: 300px; height: 400px; background: #FFFFFF; background-image: url(images/key-redblue.png); border: 5px solid #C2113A;  border-radius: 15px; box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5); transform: rotate(18deg);">
+									<p id="visredcard2" align="center" style="padding: 45% 5% 5% 5%; font-size: 1.25em !important; line-height: 1em; font-weight: bold;"> </p>
+								</div>
+</div>
 								</form>
+
+								<a href="https://decks.rereadgames.com/decks/06QRZ" class="button" style="background-color: #C2113A; color: white !important; font-weight: bold;">Play online!</a>
+								<p>Head over to <a href="https://md.rereadgames.com/#new">Massive Decks</a> and use Deck Code <a href="https://decks.rereadgames.com/decks/06QRZ">06QRZ</a>. You, uh, have to have at least 2 other friends tho</p>
 
 <p>Like it?</p>
 																			<ul class="actions">
@@ -346,31 +364,42 @@
 			  return Math.random();
 			}
 
-			function getResult(bluered)
-			{
-				indexbluecard = Math.floor(safeRand() * maxbluecard);
-				indexwow = Math.floor(Math.random() * maxwow);
-				indexredcard = Math.floor(safeRand() * maxredcard);
+			function getResult() {
+				document.getElementById("redcard2box").style.visibility = "hidden";
 
+				indexwow = Math.floor(Math.random() * maxwow);
+
+				indexbluecard = Math.floor(safeRand() * maxbluecard);
 				bluecard = arraybluecard[indexbluecard];
 
-				bluered = bluecard.replace("__", "<u id=\"redcard1\">" + arrayredcard[indexredcard] + "</u>");
+				indexredcard = Math.floor(safeRand() * maxredcard);
+				redcard1 = arrayredcard[indexredcard];
 
-					indexredcard2 = Math.round(Math.random() * maxredcard);
+				indexredcard2 = Math.round(Math.random() * maxredcard);
+				redcard2 = arrayredcard[indexredcard2];
 
-					bluered = bluered.replace("__", "<u id=\"redcard2\">" + arrayredcard[indexredcard2] + "</u>");
+				if (bluecard.match(/__.*__/)) {
+					document.getElementById("redcard2box").style.visibility = "visible";
+				}
+
+				bluered = bluecard.replace("__", "<u id=\"textredcard1\">" + redcard1 + "</u>");
+
+				bluered = bluered.replace("__", "<u id=\"textredcard2\">" + redcard2 + "</u>");
 					blueredtweet = bluered.replace(/<[^>]+>/g, '_');
 
 					tweeturl = "https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fmalicious-content.com&ref_src=twsrc%5Etfw&text=\"" + blueredtweet + "\"&tw_p=tweetbutton&via=malic_content";
 			 // alert (indexbluecard + ", " + indexredcard);
 			//	document.getElementById("announce").innerHTML = arraywow[indexwow] + ":";
 				document.getElementById("innovation").innerHTML = bluered;
+				document.getElementById("visbluecard").innerHTML = bluecard;
+				document.getElementById("visredcard1").innerHTML = redcard1;
+				document.getElementById("visredcard2").innerHTML = redcard2;
 				document.getElementById("button").value = "Again!";
 				document.getElementById("buttonwhite").value = "Swap Answer?";
-			  document.getElementById("buttonwhite").style.visibility = "visible";
-				document.getElementById("tweetit").style.visibility = "visible";
+			  document.getElementById("buttonwhite").style.display = "inline";
 
-				document.getElementById("tweetit").href = tweeturl;
+				// fuck elon document.getElementById("tweetit").style.visibility = "visible";
+				// document.getElementById("tweetit").href = tweeturl;
 
 			}
 
@@ -384,17 +413,23 @@
 				indexredcard3 = Math.floor(Math.random() * maxredcard);
 				indexwow = Math.floor(Math.random() * maxwow);
 			  newred = arrayredcard[indexredcard];
-				newred2 = arrayredcard[indexredcard2];
+			  newred2 = arrayredcard[indexredcard2];
 				var newbluered = document.getElementById("innovation").innerHTML;
-				newred2 = "_" + newred2 + "_";
-				newblueredtweet = newbluered.replace(/<.*>/g, );
 
-				tweeturl = "https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fmalicious-content.com&ref_src=twsrc%5Etfw&text=\"" + newblueredtweet + "\"&tw_p=tweetbutton&via=malic_content";
-				document.getElementById("tweetit").href = tweeturl;
+				// newred2 = "_" + newred2 + "_";
+				// newblueredtweet = newbluered.replace(/<.*>/g, );
+				// tweeturl = "https://twitter.com/intent/tweet?original_referer=https%3A%2F%2Fmalicious-content.com&ref_src=twsrc%5Etfw&text=\"" + newblueredtweet + "\"&tw_p=tweetbutton&via=malic_content";
+				// document.getElementById("tweetit").href = tweeturl;
 
 // 	 	  document.getElementById("announce").innerHTML = arraywow[indexwow] + ":";
-				document.getElementById("redcard1").innerHTML =  newred;
-				document.getElementById("redcard2").innerHTML =  newred2;
+				document.getElementById("visredcard1").innerHTML =  newred;
+				document.getElementById("textredcard1").innerHTML =  newred;
+
+				if (!!document.getElementById("textredcard2")) {
+					document.getElementById("visredcard2").innerHTML =  newred2;
+					document.getElementById("textredcard2").innerHTML =  newred2;
+				}
+
 				document.getElementById("button").value = "Play Again!";
 				document.getElementById("buttonwhite").value = "Swap Answer?";
 			}
