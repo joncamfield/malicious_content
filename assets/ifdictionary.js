@@ -4,6 +4,7 @@ var arrayifredcard = new Array(
 "According to Freedom on the Net, this is the 10th consecutive year of worsening __",
 "__ resolved internet freedom issues in my country",
 "Peer to peer __ for marginalized groups",
+// "Confirmed. __ has shut down the Internet nationwide.",
 "The only source of pure tech funding is from __",
 "Our code of conduct now requires explicit trigger warnings for __ ",
 "A venture capital styled approach for __",
@@ -15,7 +16,6 @@ var arrayifredcard = new Array(
 );
 
 var arrayifwhitecard = new Array(
-"Glitter",
 "zero-rated services accidentally providing open proxies",
 "Internet shutdowns",
 "circumventing censorship but not surveillance",
