@@ -1,7 +1,6 @@
 var arraybluecard = new Array(
 "A blockchain for __",
 "Artisanal, handcrafted malware to target __",
-"Cyber-__",
 "My secure login uses  __",
 "I started using tor because of __",
 "I explain PGP using __",
@@ -17,7 +16,6 @@ var arraybluecard = new Array(
 "__ over tor",
 "Pretty Good __",
 "My threat model is based entirely on __",
-"I don't consider __ as part of my threat model",
 "The comprehensive, thoughtful, and completely ignored, standard for __",
 "__ in the middle",
 "The pentester succeeded, thanks to __",
@@ -41,7 +39,7 @@ var arraybluecard = new Array(
 "Our code of conduct now requires explicit trigger warnings for __ ",
 "A venture capital styled approach for __",
 "__ - definitely the best way to get a cost extension",
-"__ enabled __ is big with donors this year",
+"__ enabled __ is big with funders this year",
 "Overworked, underpaid, and looking to find __",
 "__ in a suitcase",
 "Putting people directly in harms' way using __"
@@ -51,6 +49,9 @@ var arraybluecard = new Array(
 // "It's like __ but for __",
 //"The next Russian APT group will be named __ Bear",
 //"Mesh-enabled __",
+// "Cyber-__",
+//"I don't consider __ as part of my threat model",
+
 );
 
 
